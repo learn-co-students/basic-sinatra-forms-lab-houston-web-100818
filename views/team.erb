@@ -5,7 +5,15 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
+ <h2><%="#{@newteam[:teamname]}"%></h2>
+ <ul>
+   <li>Coach: <%= "#{@newteam[:coach]}" %></li>
+   <li>Point Guard: <%="#{@newteam[:pg]}" %></li>
+   <li>Power Forward: <%= "#{@newteam[:pf]}"%></li>
+   <li>Shooting Guard: <%= "#{@newteam[:sg]}"%></li>
+   <li>Center: <%= "#{@newteam[:c]}"%></li>
+   
+ </ul>
 
 
  </body>
